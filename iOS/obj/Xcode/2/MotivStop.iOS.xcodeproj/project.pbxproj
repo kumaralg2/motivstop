@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		133ACD200000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5CE65C0000000000000000 /* UIKit.framework */; };
+		8132AAEE0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854C42A00000000000000000 /* MapKit.framework */; };
+		6D7B73FB0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49D8D370000000000000000 /* Foundation.framework */; };
+		A47762E20000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B997C1E0000000000000000 /* CoreGraphics.framework */; };
+		4565C3FF0000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC87DD3B0000000000000000 /* Assets.xcassets */; };
+		4CD1AAB00000000000000000 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 8BEF33E70000000000000000 /* Contents.json */; };
+		F9E711B50000000000000000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81092AF10000000000000000 /* LaunchScreen.storyboard */; };
+		B292155D0000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39B42E990000000000000000 /* Main.storyboard */; };
+		BEC16CDC0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45E386180000000000000000 /* Info.plist */; };
+		190213B70000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0242CF30000000000000000 /* Entitlements.plist */; };
+		AC5384720000000000000000 /* MSLoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 33759DAE0000000000000000 /* MSLoginViewController.h */; };
+		E6AD9CDB0000000000000000 /* MSLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFB6170000000000000000 /* MSLoginViewController.m */; };
+		B66E00F80000000000000000 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3D901A340000000000000000 /* ViewController.h */; };
+		F0C819610000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EA329D0000000000000000 /* ViewController.m */; };
+		925DBC940000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 197FD5D00000000000000000 /* AppDelegate.h */; };
+		3CC48DC40000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E6A7000000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32F8A0600000000000000000 /* MotivStop.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MotivStop.iOS.app"; path = "MotivStop.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5CE65C0000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		854C42A00000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		F49D8D370000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		2B997C1E0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		CC87DD3B0000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		8BEF33E70000000000000000 /* Contents.json */ = {isa = PBXFileReference; name = "Contents.json"; path = "Assets.xcassets/Contents.json"; sourceTree = "<group>"; };
+		81092AF10000000000000000 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "LaunchScreen.storyboard"; path = "LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		39B42E990000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		45E386180000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		A0242CF30000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		33759DAE0000000000000000 /* MSLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MSLoginViewController.h"; path = "MSLoginViewController.h"; sourceTree = "<group>"; };
+		6DCFB6170000000000000000 /* MSLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MSLoginViewController.m"; path = "MSLoginViewController.m"; sourceTree = "<group>"; };
+		3D901A340000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		77EA329D0000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+		197FD5D00000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		C3E6A7000000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1C011280000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133ACD200000000000000000 /* UIKit.framework in Frameworks */,
+				8132AAEE0000000000000000 /* MapKit.framework in Frameworks */,
+				6D7B73FB0000000000000000 /* Foundation.framework in Frameworks */,
+				A47762E20000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273FCE6A0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				8395503E0000000000000000 /* MotivStop.iOS */,
+				F9150D800000000000000000 /* Frameworks */,
+				556A8F540000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556A8F540000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F8A0600000000000000000 /* MotivStop.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		F9150D800000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A5CE65C0000000000000000 /* UIKit.framework */,
+				854C42A00000000000000000 /* MapKit.framework */,
+				F49D8D370000000000000000 /* Foundation.framework */,
+				2B997C1E0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		8395503E0000000000000000 /* MotivStop.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				197FD5D00000000000000000 /* AppDelegate.h */,
+				CC87DD3B0000000000000000 /* Assets.xcassets */,
+				A0242CF30000000000000000 /* Entitlements.plist */,
+				45E386180000000000000000 /* Info.plist */,
+				81092AF10000000000000000 /* LaunchScreen.storyboard */,
+				39B42E990000000000000000 /* Main.storyboard */,
+				33759DAE0000000000000000 /* MSLoginViewController.h */,
+				3D901A340000000000000000 /* ViewController.h */,
+				F32ABEB10000000000000000 /* Assets.xcassets */,
+				AFB1ADF40000000000000000 /* Supporting Files */,
+			);
+			name = "MotivStop.iOS";
+			sourceTree = "<group>";
+		};
+		F32ABEB10000000000000000 /* Assets.xcassets */ = {
+			isa = PBXGroup;
+			children = (
+				8BEF33E70000000000000000 /* Contents.json */,
+			);
+			name = "Assets.xcassets";
+			sourceTree = "<group>";
+		};
+		AFB1ADF40000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3E6A7000000000000000000 /* AppDelegate.m */,
+				6DCFB6170000000000000000 /* MSLoginViewController.m */,
+				77EA329D0000000000000000 /* ViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18300F820000000000000000 /* MotivStop.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC93E520000000000000000 /* Build configuration list for PBXNativeTarget "MotivStop.iOS" */;
+			buildPhases = (
+				9537AC380000000000000000 /* Sources */,
+				B1C011280000000000000000 /* Frameworks */,
+				A37BDEB00000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MotivStop.iOS";
+			productName = "MotivStop.iOS";
+			productReference = 32F8A0600000000000000000 /* MotivStop.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4924A1D0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9BF3FF3C0000000000000000 /* Build configuration list for PBXProject "MotivStop.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 273FCE6A0000000000000000;
+			productRefGroup = 556A8F540000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18300F820000000000000000 /* MotivStop.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A37BDEB00000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4565C3FF0000000000000000 /* Assets.xcassets in Resources */,
+				4CD1AAB00000000000000000 /* Contents.json in Resources */,
+				F9E711B50000000000000000 /* LaunchScreen.storyboard in Resources */,
+				B292155D0000000000000000 /* Main.storyboard in Resources */,
+				BEC16CDC0000000000000000 /* Info.plist in Resources */,
+				190213B70000000000000000 /* Entitlements.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9537AC380000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5384720000000000000000 /* MSLoginViewController.h in Sources */,
+				E6AD9CDB0000000000000000 /* MSLoginViewController.m in Sources */,
+				B66E00F80000000000000000 /* ViewController.h in Sources */,
+				F0C819610000000000000000 /* ViewController.m in Sources */,
+				925DBC940000000000000000 /* AppDelegate.h in Sources */,
+				3CC48DC40000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		712767D40000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		CA1EC0260000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "MotivStop.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF3FF3C0000000000000000 /* Build configuration list for PBXProject "MotivStop.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				712767D40000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		6DC93E520000000000000000 /* Build configuration list for PBXNativeTarget "MotivStop.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA1EC0260000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4924A1D0000000000000000 /* Project object */;
+}
